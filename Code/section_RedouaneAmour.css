@@ -1,0 +1,46 @@
+#RedouaneAmour div
+{
+	display: flex;
+	justify-content: center;
+}
+
+
+#RedouaneAmour aside, #RedouaneAmour footer
+{
+	display: none;
+}
+#RedouaneAmour:hover aside, #RedouaneAmour:hover footer
+{
+	display: block;
+}
+
+
+#RedouaneAmour ul
+{
+	width: 330px;
+	margin-top: 45px;
+	color: #06472f ;
+	font-family: 'DejaVuSerifCondensed';
+	font-size: 1.2em;
+	font-weight: 400;
+}
+#RedouaneAmour li
+{
+	margin-top: 15px;
+}
+
+
+
+
+#RedouaneAmour footer
+{
+	text-align: center;
+	display: none;
+	color: #06472f ;
+	font-family: 'DejaVuSerifCondensed';
+	font-style: italic;
+	font-size: 1.2em;
+	font-weight: 400;
+	margin-top: 25px;	
+}
+

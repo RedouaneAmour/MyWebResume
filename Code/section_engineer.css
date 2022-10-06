@@ -1,0 +1,134 @@
+
+.education header h1, .experience header h1
+{
+	color: #06472f ;
+	font-family: 'DejaVuSerifCondensed';
+	font-size: 1.5em;
+	font-weight: 400;
+	margin-bottom: 0px;
+}
+
+.education p
+{
+	width: 500px;
+	line-height: 1.5em;
+	color: #06472f ;
+	font-family: 'DejaVuSerifCondensed';
+	font-size: 1.1em;
+	font-weight: 400;
+	margin-bottom: 0px;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#NANOLIKE p, #LAAS_CNRS p, #LoRa p, #microservices p, #Wristband p
+{
+	width: 500px;
+	line-height: 1.5em;
+	margin:  auto;
+	color: #06472f ;
+	font-family: 'DejaVuSerifCondensed';
+	font-size: 1.1em;
+	font-weight: 400;
+	margin-bottom: 0px;
+	margin-top: 15px;
+	text-align: justify;
+}
+
+
+#NANOLIKE header, #LAAS_CNRS header, #LoRa header, #microservices header, #Wristband header
+{
+	display: flex;
+	justify-content: center;
+	width: 500px;
+}
+
+
+#NANOLIKE header h3, #LAAS_CNRS header h3, #LoRa header h3, #microservices header h3, #Wristband header h3
+{
+	color: #06472f ;
+	font-family: 'DejaVuSerifCondensed';
+	font-style: italic;
+	font-size: 1.2em;
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+
+
+
+#NANOLIKE header img
+{
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+	margin-top: 15px;
+}
+
+#LAAS_CNRS header img
+{
+	width: 100px;
+	height: 50px;
+	margin-left: 10px;
+	margin-top: 15px;
+}
+
+#LoRa header img, #microservices header img, #Wristband header img
+{
+	width: 80px;
+	height: 40px;
+	margin-left: 15px;
+	margin-top: 23px;
+}
+
+a{
+	text-decoration: none;
+	color: #06472f ;
+}
+
+#engineer > div
+{
+	display: none;
+}
+
+#engineer > img
+{
+	display: block;
+	margin-top: 170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#engineer:hover > img
+{
+	display: none;
+}
+
+#engineer:hover > div
+{
+	display: block;
+}
+
+
+#engineer:hover .slides_container
+ {
+         /*on aligne la fenetre de slide avec les bouttons qui permettent de changer les slides*/
+   	display: flex;
+   	/*pour espacer (space-between) les bouttons et la fenetre de slide*/
+   	justify-content: space-between;
+    align-items: center;
+                
+    
+ }
+
+ .slide footer
+{
+	width: 500px;
+	margin:  auto;
+	color: #06472f ;
+	font-family: 'DejaVuSerifCondensed';
+	font-size: 1.1em;
+	font-weight: 400;
+	margin-top: 15px;
+	text-align: center;
+}

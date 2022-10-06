@@ -1,0 +1,80 @@
+#tennisman
+{
+	background-color: #06472f;
+}
+
+
+#tennisman > header h1, #tennisman> header p
+{
+	color: wheat;
+	margin-bottom: 15px;
+}
+
+
+
+#tennisman > img
+{
+	width: 100%;
+	margin-top: 200px;
+}
+#tennisman:hover img
+{
+	width: 100%;
+	margin-top: 5px;
+}
+
+
+
+
+#tennisman > div 
+{
+	display: none;
+}
+
+ #tennisman:hover .slides_container
+ {
+         /*on aligne la fenetre de slide avec les bouttons qui permettent de changer les slides*/
+   	display: flex;
+   	/*pour espacer (space-between) les bouttons et la fenetre de slide*/
+   	justify-content: space-between;
+    align-items: center;
+}
+
+.window
+{
+    width: 500px;
+   	height: 310px;
+    display: flex;
+    overflow: hidden;
+    text-align: center;
+}
+.window > .slide
+{
+  	width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    transition: all 0.5s; 
+} 
+.slide h1
+{
+	color: wheat ;
+	font-family: 'DejaVuSerifCondensed';
+	font-size: 1.1em;
+	font-weight: 400;
+	margin: auto;
+	font-style: italic;
+}
+.left, .right
+{
+   	width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border:  none;
+}
+.left{
+	transform: rotate(+90deg);
+}
+.right{
+	transform: rotate(-90deg);
+}
+

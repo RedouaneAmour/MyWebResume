@@ -1,0 +1,55 @@
+body
+{
+	min-height:625px;
+	display: flex;
+	flex-direction: row;
+	padding: 0;
+	margin: 0;
+}
+
+section
+{
+	width: 25%;
+	
+}
+
+section:hover
+{
+	width: 70%;
+	transition: all 4s;
+}
+
+
+section header
+{
+	text-align: center;
+}
+section > header h1
+{
+	color: #06472f ;
+	font-family: 'DejaVuSerifCondensed';
+	font-size: 2.0em;
+	font-weight: 400;
+}
+section > header p
+{
+	display: none;
+	width: 650px;
+	color: #06472f ;
+	font-family: 'DejaVuSerifCondensed';
+	font-style: italic;
+	font-size: 1.3em;
+	font-weight: 400;
+	margin: auto;
+}
+section:hover > header p
+{
+	display: block;
+}
+
+@font-face
+{
+	font-family: 'DejaVuSerifCondensed';
+	src: url('font-family/DejaVuSerifCondensed.ttf');
+}
+

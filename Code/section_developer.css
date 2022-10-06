@@ -1,0 +1,76 @@
+#developer{
+	background-color: #06472f;
+	text-align: center;
+}
+
+
+#developer > header h1, #developer > header p
+{
+	color: wheat;
+}
+
+
+#developer > img
+{
+	height: 200px;
+	margin-top: 130px;
+	margin-left: 50px;
+}
+#developer:hover > img
+{
+	display: none;
+}
+
+
+
+
+#developer > div
+{
+	display: none;
+	width: 650px;
+	margin-left: 0px;
+	margin-top: 30px;
+}
+
+#developer:hover > div
+{
+	display: flex;
+}
+#developer > div img
+{
+	margin-top: 20px;
+	height: 350px;
+	margin-left: 10px;
+	margin-right: 0px;
+}
+#developer > div header h1
+{
+	color: wheat ;
+	font-family: 'DejaVuSerifCondensed';
+	font-style: bold;
+	font-size: 1.4em;
+	font-weight: 400;
+	margin: auto;	
+}
+#developer div aside
+{
+	margin-left: 0px;
+}
+
+#developer > div ul
+{
+	margin-top: 5px;
+	color: wheat ;
+	font-family: 'DejaVuSerifCondensed';
+	font-size: 1.2em;
+	font-weight: 400;
+	text-align: justify;
+	margin-left: 0px;
+}
+#developer > div li
+{
+	margin-top: 15px;
+	list-style: none;
+	margin-left: 0px;
+}
+
